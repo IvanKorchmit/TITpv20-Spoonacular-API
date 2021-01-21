@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+.bg-img {
+    background-image: url("../img//kitchen.jpeg");
+    filter: blur(1rem);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    position:absolute;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main {
+    background-color: var(--bg-color);
+    text-align: center;
+    color: white;
+    border: black solid 5px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.summary {
+    background-color: var(--bg-color);
+    text-align: center;
+    color: white;
+    border: black solid 5px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style: inside;
+}
+ol {
+    list-style: inside;
+}
+.ingredients {
+    background-color: var(--bg-color);
+    color: white;
+    border: black solid 5px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    text-align: center;
+}
+.instructions {
+    background-color: var(--bg-color);
+    color: white;
+    border: black solid 5px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root {
+    --bg-color: rgba(32, 0, 0, 0.6);
+    --link: rgb(94, 58, 255);
+    --link-hover:  rgb(54, 32, 150);
+    --link-active: rgb(255, 145, 81);
+    --link-visited: rgb(211, 178, 212);
+
+}
+
+img {
+    position: relative;
+    left: 0%;
+}
+
+a:link { 
+    color: var(--link);
+    background-color: var(--bg-color);
+}
+
+a:visited {
+   color: var(--link-visited);
+   background-color: var(--bg-color);
+}
+  
+  a:hover {
+    color: var(--link-hover);
+    background-color: var(--bg-color);
+}
+  
+  a:active {
+    color: var(--link-active);
+    background-color: var(--bg-color);
+}
+footer {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
